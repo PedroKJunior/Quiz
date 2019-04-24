@@ -1,0 +1,32 @@
+.field__label {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.field__input {
+  width: 100%;
+  border: none; 
+  border-bottom: 2px solid white;
+  background: none;
+  outline: none;
+  color: white;
+}
+
+.field__label__span {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  transition: top .2s ease, font-size .2s ease;
+}
+
+.field__input:focus + .field__label__span,
+.field__input:not(:placeholder-shown) + .field__label__span {
+  font-size: 12px;
+  top: -15px;
+}
+
+.input__container {
+  margin: 50px 5px;
+}
