@@ -1,0 +1,75 @@
+.button {
+    padding: 5px 15px;
+    border: 2px solid;
+    margin: 15px 10px;
+    cursor: pointer;
+    outline: none !important;
+    background: none;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.orange {
+    border-color: #FF652F;
+    color: #FF652F;
+}
+
+.orange:hover {
+    background: #FF652F;
+    color: white;
+}
+
+.green {
+    border-color: #14A76C;
+    color: #14A76C;
+}
+
+.green:hover {
+    background: #14A76C;
+    color: white;
+}
+
+.blue {
+    border-color: #3500D3;
+    color: #3500D3;
+}
+
+.blue:hover {
+    background: #3500D3;
+    color: white;
+}
+
+.red {
+    border-color: #FC4445;
+    color: #FC4445;
+}
+
+.red:hover {
+    background: #FC4445;
+    color: white;
+}
+
+.pink {
+    border-color: #C3073F;
+    color: #C3073F;
+}
+
+.pink:hover {
+    background: #C3073F;
+    color: white;
+}
+
+.white {
+    border-color: #EDEDED;
+    color: #EDEDED;
+}
+
+.white:hover {
+    background: #EDEDED;
+    color: black;
+}
+
