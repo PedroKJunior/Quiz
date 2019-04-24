@@ -1,0 +1,48 @@
+.container-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.bar-toggle {
+    width: 36px;
+    height: 14px;
+    position: relative;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.bar-toggle-on{
+    background: rgba(20,167,108,.5)
+}
+
+.bar-toggle-off{
+    background: rgb(252, 68, 69, .5)
+}
+
+.toggle {
+    width: 20px;
+    height: 20px;
+    background: #bdbdbd;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    position: absolute;
+    z-index: 1;
+    top: -3px;
+    cursor: pointer;
+}   
+
+.on {
+    transition: all 80ms linear;
+    transition-property: left;
+    left: 0px;
+    background: #14A76C
+}
+
+.off {
+    transition: all 80ms linear;
+    transition-property: left;
+    left: 16px;
+    background: #FC4445
+}
