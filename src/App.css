@@ -1,0 +1,21 @@
+.container-fluid {
+    width: 100vw;
+    height: 100vh;
+}
+
+.dark {
+    background: #221F1F;
+    color: #EDEDED;
+}
+
+.light {
+    background: #EDEDED;
+    color: #221F1F;
+}
+
+.button-toggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
