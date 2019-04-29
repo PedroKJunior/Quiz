@@ -3,7 +3,8 @@ import './App.css'
 import {BrowserRouter as Router } from 'react-router-dom';
 
 import Routes from './js/Routes'
-import Slider from "./components/sliderColor/Slider"
+import Slider from './components/sliderColor/Slider'
+import ButtonHome from './components/buttonHome/ButtonHome'
 
 class App extends Component {
 
@@ -26,7 +27,10 @@ class App extends Component {
     return (
       <div className={`container-fluid ${ this.state.color }`}>
         <div className="row">
-          <div className="col-12 button-toggle">
+          <div className="col-6">
+            <ButtonHome />
+          </div>
+          <div className="col-6 button-toggle">
             <span>Dark</span>
             <Slider  power={this.state.power} click={this.clickSlider.bind(this)} />
             <span>Light</span>
