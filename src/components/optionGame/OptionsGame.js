@@ -1,7 +1,6 @@
 import React from 'react'
-import { BrowserRouter as Router, Link } from "react-router-dom"
+import { BrowserRouter as Link } from "react-router-dom"
 import Button from "../button/Button"
-
 
 class OptionsGame extends React.Component {
 
@@ -9,13 +8,11 @@ class OptionsGame extends React.Component {
         return (
             <div className="row">
                 <div className="col-6 buttons">
-                    <Router>
-                        <Link to="/new-game">
-                            <Button type="Novo Jogo" color="blue" />
-                        </Link>
-                        <Button type="Continuar Jogando" color="orange" />
-                        <Button type="Gerenciar Perguntas" color="green" /> 
-                    </Router>
+                    <Link to="/new-game">
+                        <Button type="Novo Jogo" color="blue" />
+                    </Link>
+                    <Button type="Continuar Jogando" color="orange" />
+                    <Button type="Gerenciar Perguntas" color="green" /> 
                 </div>                            
             </div>
         )
