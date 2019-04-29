@@ -10,7 +10,7 @@ class Routes extends React.Component {
             <main className="container">
                 <Switch>
                     <Route exact path='/' component={ OptionsGame }/>
-                    <Route path='/new-game' component={ NewGame }/>
+                    <Route exact path='/new-game' component={ NewGame }/>
                 </Switch>
             </main>
         )
